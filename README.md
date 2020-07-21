@@ -5,8 +5,11 @@ Towards a Circular Building Environment
 
 
 A set of analysis and design tools to reuse of post-demolition materials at practical scales.  
+This repo details a prototype example of this process, using reclaimed wooden beams and battens facade designs.
 
 [Project Overview](http://www.iaacblog.com/programs/localize-collate-design-towards-circular-building-environment/)  
+
+![intro](images/matching.png)
 
 Project Structure
 ----------
@@ -34,6 +37,14 @@ The following Grasshopper plugins are necessary for the design tool:
 
 Use
 ---
+![interface](images/database_interface.png)
+
+Firstly a selection from the dataset is made using the interface window. The user can choose the range for different dimensions of the pieces, as well as the maximum distance to transport the material and quality limits. 
+
+![design](images/design.png)  
+
+The facade shape is built from user supplied curves and areas that determine visual density. These positions are set by the user with a certain range of variability each. The system uses Galapagos to make slight adjustments to these shapes to find a design that can be ideally built with the available materials, as well as maintaining structural viability, and considering transport costs. 
+
 
 Related Projects
 --------
